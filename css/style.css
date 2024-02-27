@@ -19,10 +19,13 @@ background-color: rgb(0, 0, 0);
 }
 
 footer{
-    height: 120px;
+    height: 100px;
 
     /*DEBUG*/
-    background-color: rgb(27, 3, 25);
+    background-color:#222222;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
     
 }
 
@@ -47,8 +50,55 @@ footer{
     flex-wrap:wrap;
 }
 
-.lefticons{
-    width: 120px;
-    height: 120px;
-    background-color: aliceblue;
+.icons{
+    margin-top: 10px;
+    height: 80px;
+    
+       
+
+}
+
+
+.left{    
+    
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    }
+
+
+.fa-microphone {
+    font-size: 40px;
+    color: aliceblue;
+}
+.fa-video{
+    font-size: 40px;
+    color: aliceblue;
+}
+.fa-angle-up{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+
+.center{
+    /*debug*/
+   
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.right{
+    /*debug*/
+    background-color: grey;
+    display: flex;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
 }
