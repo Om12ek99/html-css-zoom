@@ -1,0 +1,46 @@
+/*RESET*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+width: 100%;
+height: calc(100vh - 120px);
+overflow-y: auto;
+/*debug*/
+background-color: aqua;
+}
+
+footer{
+    height: 120px;
+
+    /*DEBUG*/
+    background-color: rgb(27, 3, 25);
+    
+}
+
+.col{
+    /*debug*/
+    height: 161px;
+    width: calc(100%/7);
+    background-color: blueviolet;
+    border: 5px solid white;
+    
+}
+
+
+.callzoom{
+    display: flex;
+    padding: 60px;
+ }   
+
+.flex{
+    flex-wrap:wrap;
+}
