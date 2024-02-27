@@ -37,7 +37,7 @@ footer{
     border-bottom: 10px solid rgb(0, 0, 0);
     border-left: 5px solid rgb(0, 0, 0);
     background-color: rgb(0, 0, 0);
-    
+    position: relative;    
     
 }
 
@@ -50,10 +50,27 @@ footer{
     flex-wrap:wrap;
 }
 
+.fa-microphone-slash{
+    font-size: medium;
+}
+.name{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    font-size: larger;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5px;
+    padding-bottom: 5px;
+    
+}
+
+
+
 .icons{
     margin-top: 10px;
-    height: 80px;
-    
+    height: 80px;  
        
 
 }
