@@ -38,7 +38,6 @@ footer{
     
 }
 
-
 .callzoom{
     display: flex;
     padding: 60px;
@@ -46,4 +45,10 @@ footer{
 
 .flex{
     flex-wrap:wrap;
+}
+
+.lefticons{
+    width: 120px;
+    height: 120px;
+    background-color: aliceblue;
 }
