@@ -166,4 +166,10 @@ footer{
 .microphone{
     display: flex;
     align-items: center;
+    transition: transform .2s;
 }
+
+.hover:hover  {
+    transform: scale(1.3); 
+}
+
