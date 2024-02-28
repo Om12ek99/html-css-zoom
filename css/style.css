@@ -91,7 +91,8 @@ footer{
 .icons{
     margin-top: 10px;
     height: 80px;  
-    text-align: center;   
+    text-align: center;  
+    
 
 }
 
@@ -102,6 +103,7 @@ footer{
     display: flex;
     align-items: center;
     gap: 15px;
+    justify-content: center;
     }
 
 
@@ -116,6 +118,7 @@ footer{
 .fa-angle-up{
     font-size: 20px;
     color: aliceblue;
+    
 }
 
 
@@ -153,4 +156,14 @@ footer{
 
 .fa-share-from-square{
     color:#4bc800
+}
+
+.video{
+    display: flex;
+    align-items: center;
+}
+
+.microphone{
+    display: flex;
+    align-items: center;
 }
